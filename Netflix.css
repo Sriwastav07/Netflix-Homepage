@@ -1,0 +1,151 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    color: #fa0707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: #fa0707;
+}
+a:hover {
+    text-decoration-line: underline;
+    color: #fcfafa;
+}
+
+main {
+    
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job32-247-kung-00485.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7945e08c83b86924b6465e3074778ed1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.featured {
+    padding-top: 10%;
+    padding-left: 35%;
+    padding-right: 30%;
+    align-items: center;
+    font-weight: 900;
+    font-size: 50px;
+    width: 100%;
+    justify-content: center;
+    
+    color: #fff;
+    margin: 0%;
+
+}
+h1 {
+    padding-left: 90px;
+    font-size: 50px;
+    font-style: oblique;
+}
+h3 {
+    padding-left: 40%;
+    color: #fcfafa;
+    font-style: italic;
+}
+.second {
+    padding-left: 30%;
+    padding-top: 25px;
+}
+.recommended {
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+input[type="email"]{
+    width: 35%;
+    height: 50px;
+    background-color: #4a4848;
+    color: #fcfafa;
+    font-size: medium;
+}
+::placeholder{
+    color: #fcfafa;
+    font-size: medium;
+    padding: 10px;
+}
+.button {
+    background-color: #911308; /* Green */
+    border: 2px solid #643232;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: #f8210e;
+    cursor:grab;
+}
+.row {
+    background-color: rgb(42, 41, 41);
+    color: #fcfafa;
+    text-align: center;
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+.box{
+    background-color: #5b1333;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+.offer{
+    padding-right: 40%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.box:hover{
+    background-color: #e9267e;
+    -ms-zoom-animation: inherit;
+}
